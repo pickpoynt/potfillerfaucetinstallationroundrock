@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap');
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 215 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    --primary: 215 60% 25%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 65% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 15% 92%;
+    --muted-foreground: 215 15% 45%;
+
+    --accent: 30 65% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214 20% 88%;
+    --input: 214 20% 88%;
+    --ring: 215 60% 25%;
+
+    --radius: 0.5rem;
+
+    /* Custom tokens */
+    --copper: 25 70% 45%;
+    --copper-light: 30 60% 65%;
+    --navy-dark: 215 65% 18%;
+    --navy-light: 215 45% 35%;
+    --steel: 210 10% 60%;
+    --cream: 40 30% 96%;
+
+    --gradient-hero: linear-gradient(135deg, hsl(215 65% 18%) 0%, hsl(215 45% 35%) 100%);
+    --gradient-copper: linear-gradient(135deg, hsl(25 70% 45%) 0%, hsl(30 60% 55%) 100%);
+    --gradient-overlay: linear-gradient(180deg, hsla(215 65% 18% / 0.85) 0%, hsla(215 45% 35% / 0.7) 100%);
+
+    --shadow-sm: 0 1px 2px hsla(215 25% 15% / 0.05);
+    --shadow-md: 0 4px 12px hsla(215 25% 15% / 0.1);
+    --shadow-lg: 0 12px 40px hsla(215 25% 15% / 0.15);
+    --shadow-copper: 0 8px 30px hsla(25 70% 45% / 0.3);
+  }
+
+  .dark {
+    --background: 215 25% 10%;
+    --foreground: 210 20% 95%;
+    --card: 215 25% 12%;
+    --card-foreground: 210 20% 95%;
+    --popover: 215 25% 12%;
+    --popover-foreground: 210 20% 95%;
+    --primary: 30 65% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 215 45% 35%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 215 20% 18%;
+    --muted-foreground: 210 15% 65%;
+    --accent: 30 65% 50%;
+    --accent-foreground: 0 0% 100%;
+    --border: 215 20% 20%;
+    --input: 215 20% 20%;
+    --ring: 30 65% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  .text-gradient-copper {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-copper);
+  }
+
+  .bg-gradient-hero {
+    background-image: var(--gradient-hero);
+  }
+
+  .bg-gradient-overlay {
+    background-image: var(--gradient-overlay);
+  }
+
+  .shadow-copper {
+    box-shadow: var(--shadow-copper);
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+
+  .animate-fade-in-delay-1 {
+    animation: fadeIn 0.6s ease-out 0.1s forwards;
+    opacity: 0;
+  }
+
+  .animate-fade-in-delay-2 {
+    animation: fadeIn 0.6s ease-out 0.2s forwards;
+    opacity: 0;
+  }
+
+  .animate-fade-in-delay-3 {
+    animation: fadeIn 0.6s ease-out 0.3s forwards;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
