@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Is knob and tube wiring dangerous?",
-    answer: "Yes, primarily because it is ungrounded and uses cloth insulation that becomes brittle and combustible over time. It was not designed for the electrical load of modern appliances, which can lead to overheating and fire."
+    question: "Do I need a plumber to install a pot filler?",
+    answer: "Yes. Pot fillers require running a primary cold water line through the wall. Improper installation can lead to hidden leaks behind your backsplash, causing major structural damage."
   },
   {
-    question: "Can I get home insurance with knob and tube wiring?",
-    answer: "Most insurance companies in Savannah and nationwide will refuse to provide coverage or will significantly increase premiums if they find active knob and tube wiring in a home."
+    question: "How high should a pot filler be mounted?",
+    answer: "Typically, we mount pot fillers 12 to 14 inches above the cooktop surface, but we customize this based on your stockpot sizes and range hood clearance."
   },
   {
-    question: "Do you have to tear down my walls to rewire?",
-    answer: "No. Our Savannah specialists use 'fishing' techniques to run new wiring through existing cavities, typically requiring only small, easily patchable holes near the ceiling and floor."
+    question: "Can you install a pot filler on an existing wall?",
+    answer: "Absolutely. Our Round Rock specialists use advanced techniques to route plumbing with minimal damage to your existing drywall or tile backsplash."
   },
   {
-    question: "How long does a whole-home rewire take?",
-    answer: "A standard two-story historic home in Savannah usually takes 5 to 10 working days for a complete rewire, depending on the accessibility of the attic and crawlspace."
+    question: "How long does the installation take?",
+    answer: "A standard installation, including running the water line and mounting the fixture, typically takes 3 to 5 hours depending on your kitchen's layout."
   },
   {
-    question: "What is the cost of replacing knob and tube wiring?",
-    answer: "Cost varies based on house size and accessibility. We provide free, detailed estimates for Savannah homeowners after a brief on-site inspection."
+    question: "What is the benefit of a dual-jointed pot filler?",
+    answer: "Dual joints allow the faucet to fold completely flat against the wall when not in use and extend to reach every burner on your stove."
   },
   {
-    question: "Are your electricians licensed for historic district work?",
-    answer: "Yes. We are fully licensed, insured, and deeply familiar with the specific requirements for electrical work in Savannah's historic Landmark District."
+    question: "Do you provide the faucet or should I buy it?",
+    answer: "We can do both! We can supply professional-grade fixtures or expertly install any high-end pot filler you have already purchased for your Round Rock home."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Historic Rewiring FAQ – Savannah, GA
+            Pot Filler FAQ – Round Rock, TX
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Find answers to common questions about knob and tube removal, copper rewiring, and electrical safety in Savannah's historic homes.
+            Find answers to common questions about pot filler plumbing, installation height, and kitchen modernization in Central Texas.
           </p>
         </div>
 

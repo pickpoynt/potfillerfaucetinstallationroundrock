@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Clock, Award } from "lucide-react";
-import heroImage from "@/assets/hero-wiring.png";
+import heroImage from "@/assets/hero-potfiller.png";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Professional knob and tube wiring replacement in Savannah GA"
+          alt="Professional pot filler faucet installation in a modern kitchen"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,26 +20,26 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Savannah's Historic Home Specialists
+              Round Rock's Kitchen Plumbing Experts
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Knob and Tube Wiring Replacement in Savannah, GA
-            <span className="block text-gradient-copper mt-2">Modernize Safely.</span>
+            Pot Filler Faucet Installation in Round Rock, TX
+            <span className="block text-gradient-copper mt-2">Simplify Your Kitchen.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Historic homes deserve expert care. We specialize in non-destructive
-            knob and tube wiring replacement, ensuring your Savannah property meets current
-            safety standards and remains insurable.
+            Upgrade your cooking experience with a professionally installed pot filler.
+            We specialize in water line extensions and luxury faucet mounting for modern
+            Round Rock kitchens.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
             <Button size="lg" className="bg-copper hover:bg-copper-light text-white border-none h-14 px-8 text-lg" asChild>
-              <a href="tel:+18449012684" className="flex items-center gap-2">
+              <a href="tel:+18777921410" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call +18449012684
+                Call +18777921410
               </a>
             </Button>
           </div>

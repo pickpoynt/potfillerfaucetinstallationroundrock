@@ -1,50 +1,50 @@
-import { AlertTriangle, Clock, Shield, CheckCircle2, ZapOff } from "lucide-react";
+import { Droplets, Wrench, Clock, Shield, CheckCircle2 } from "lucide-react";
 
 const warningSignsData = [
   {
-    icon: ZapOff,
-    title: "Old Porcelain Knobs",
-    description: "Visible porcelain knobs and tubes in your attic or basement indicate an outdated system that was never designed for modern electrical loads.",
+    icon: Droplets,
+    title: "Water Line Access",
+    description: "The most critical step is routing a cold water line through the wall to the exact height and position above your cooktop.",
   },
   {
-    icon: AlertTriangle,
-    title: "Brittle Cloth Insulation",
-    description: "Cloth insulation on old wiring becomes extremely brittle over time, often crumbling when touched and exposing live wires.",
+    icon: Wrench,
+    title: "Structural Bracing",
+    description: "Pot fillers are heavy and experience significant leverage. We install solid wood bracing behind the wall for a rock-solid mount.",
   },
   {
     icon: Clock,
-    title: "Flickering Lights",
-    description: "Flickering lights or warm outlets are early warning signs that your historic wiring is struggling to keep up with current demands.",
+    title: "Height Precision",
+    description: "We work with you to determine the perfect height based on your tallest stockpot and the clearance of your range hood.",
   },
 ];
 
 const benefitsData = [
-  "Ensures full home insurance eligibility",
-  "Eliminates fire hazards from brittle wiring",
-  "Adds modern grounded outlets (3-prong)",
-  "Increases electrical capacity for appliances",
-  "Protects sensitive modern electronics",
-  "Preserves Savannah's historic architecture",
+  "Drastically reduces physical strain while cooking",
+  "Professional-grade kitchen functionality",
+  "Sleek, modern aesthetic for luxury homes",
+  "High-flow rate for rapid pot filling",
+  "Dual-jointed arms for maximum reach",
+  "Certified leak-proof water line extension",
 ];
 
-const WiringInfo = () => {
+const PotFillerInfo = () => {
   return (
-    <section id="wiring-info" className="py-24 bg-gradient-hero">
+    <section id="potfiller-info" className="py-24 bg-gradient-hero">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-            Safety & Heritage
+            Culinary Convenience
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-            Expert Electrical Modernization for Savannah's Historic Homes
+            Professional Pot Filler Installation in Round Rock
           </h2>
           <p className="text-primary-foreground/80 text-lg">
-            Knob and tube wiring was state-of-the-art in 1920, but today it represents a
-            significant fire risk. We provide expert, minimally invasive replacement services.
+            Thinking about adding a pot filler to your kitchen renovation? It's one of the
+            most sought-after luxury upgrades for serious home cooks in Central Texas.
           </p>
         </div>
 
-        {/* Warning Signs */}
+        {/* Info Cards */}
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           {warningSignsData.map((sign, index) => (
             <div
@@ -70,24 +70,23 @@ const WiringInfo = () => {
             <div className="flex items-center gap-3 mb-6">
               <Shield className="w-8 h-8 text-copper" />
               <h3 className="text-2xl font-heading font-bold text-foreground">
-                Preserving Plaster & Woodwork
+                Seamless Integration
               </h3>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              We understand that the beauty of a Savannah home lies in its original details.
-              Our electricians use specialized tools to 'fish' new wires through existing
-              wall cavities, avoiding the need to tear down historic lath and plaster.
+              Installing a pot filler on an existing wall requires surgical precision. Our
+              Round Rock plumbers specialize in running new water lines with minimal
+              impact on your backsplash and cabinetry.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              From the Landmark Historic District to Ardsley Park and Isle of Hope, we have
-              centuries of combined experience working specifically with Savannah's unique
-              architectural challenges.
+              Whether you're in Brushy Creek, Teravista, or Forest Creek, we bring
+              top-tier plumbing expertise to help you build the gourmet kitchen of your dreams.
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
             <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-              Why Replace Your Wiring?
+              Why Install a Pot Filler?
             </h3>
             <ul className="space-y-4">
               {benefitsData.map((benefit, index) => (
@@ -105,9 +104,9 @@ const WiringInfo = () => {
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
           <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
-            <AlertTriangle className="w-6 h-6 text-copper" />
+            <Wrench className="w-6 h-6 text-copper" />
             <span className="text-primary-foreground font-medium text-lg">
-              Planning home renovations or buying a historic property? Call us at +18449012684 for a safety inspection.
+              Ready to upgrade your kitchen? Call us at +18777921410 for a custom installation quote.
             </span>
           </div>
         </div>
@@ -116,4 +115,4 @@ const WiringInfo = () => {
   );
 };
 
-export default WiringInfo;
+export default PotFillerInfo;

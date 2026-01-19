@@ -1,35 +1,35 @@
-import { Shield, Zap, DollarSign, Clock, ThumbsUp, Hammer } from "lucide-react";
+import { Shield, Droplets, DollarSign, Clock, ThumbsUp, Wrench } from "lucide-react";
 
 const reasons = [
   {
     icon: Shield,
-    title: "Insurance Compliance",
-    description: "Most insurance companies will not cover homes with active knob and tube wiring. We provide the certification you need.",
+    title: "Leak-Free Guarantee",
+    description: "Our precision installation and premium materials ensure your new pot filler remains leak-free for years to come.",
   },
   {
-    icon: Zap,
-    title: "Fire Hazard Prevention",
-    description: "Old cotton insulation becomes brittle and flammable over time. Modern copper wiring eliminates this major fire risk.",
+    icon: Droplets,
+    title: "Convenient Luxury",
+    description: "Eliminate the strain of carrying heavy, water-filled pots. Enjoy a more ergonomic and efficient cooking experience.",
   },
   {
     icon: DollarSign,
-    title: "Home Value Boost",
-    description: "Full electrical modernization significantly increases the resale value and marketability of your historic Savannah home.",
+    title: "Home Value Enhancement",
+    description: "Modern kitchen upgrades like pot fillers are highly attractive to buyers and significantly boost your home's appeal.",
   },
   {
     icon: Clock,
-    title: "Fast Project Completion",
-    description: "We use specialized techniques to rewire historic homes with minimal wall damage and rapid turnaround times.",
+    title: "Rapid Installation",
+    description: "Most pot filler installations, including water line extensions, are completed in just a few hours with minimal disruption.",
   },
   {
     icon: ThumbsUp,
-    title: "Licensed & Master Electricians",
-    description: "Our team consists of Master Electricians who specialize specifically in historic preservation and modern electrical codes.",
+    title: "Expert Local Plumbers",
+    description: "Our licensed Round Rock plumbers have extensive experience installing high-end kitchen fixtures with precision.",
   },
   {
-    icon: Hammer,
-    title: "Minimal Invasive Methods",
-    description: "We take pride in our 'fishing' techniques that allow us to run new wires through existing cavities without tearing down plaster.",
+    icon: Wrench,
+    title: "All Brands Serviced",
+    description: "From Delta and Moen to luxury designer brands, we handle the installation and mounting of all pot filler models.",
   },
 ];
 
@@ -40,32 +40,32 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Preserving History
+              Modern Kitchens
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Savannah's Premier
-              <span className="text-gradient-copper block">Historic Rewiring Team</span>
+              Round Rock's Choice for
+              <span className="text-gradient-copper block">Kitchen Plumbing Luxury</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Savannah's historic charm shouldn't come with electrical risks. We specialize
-              in the delicate art of modernizing electrical systems in 100+ year old homes,
-              ensuring safety while respecting the architectural integrity of your property.
+              A pot filler is more than just a faucet; it's a statement of convenience and
+              style. We bring technical expertise and aesthetic precision to every
+              installation in the Round Rock area.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">2,000+</span>
-                <span className="text-sm text-muted-foreground">Homes Rewired</span>
+                <span className="text-4xl font-heading font-bold text-copper block">750+</span>
+                <span className="text-sm text-muted-foreground">Kitchens Upgraded</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">15+</span>
+                <span className="text-4xl font-heading font-bold text-copper block">10+</span>
                 <span className="text-sm text-muted-foreground">Years Experience</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">100%</span>
-                <span className="text-sm text-muted-foreground">Inspection Pass Rate</span>
+                <span className="text-4xl font-heading font-bold text-copper block">5.0</span>
+                <span className="text-sm text-muted-foreground">Google Rating</span>
               </div>
             </div>
           </div>

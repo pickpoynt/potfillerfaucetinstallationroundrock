@@ -11,17 +11,17 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Contact Savannah's Historic Rewiring Experts
-              <span className="text-gradient-copper block">Modernize Your Home Today</span>
+              Contact Round Rock's Pot Filler Experts
+              <span className="text-gradient-copper block">Upgrade Your Kitchen Today</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Living in a historic Savannah home with old wiring? Don't risk a fire. Contact us
-              for a professional safety inspection or a free rewiring estimate.
+              Ready to add the ultimate convenience to your kitchen? Contact our Round Rock
+              plumbers for a professional pot filler installation and water line extension.
             </p>
 
             <div className="space-y-6">
               <a
-                href="tel:+18449012684"
+                href="tel:+18777921410"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -29,12 +29,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Call Us Now</span>
-                  <span className="font-heading font-bold text-xl text-foreground">+18449012684</span>
+                  <span className="font-heading font-bold text-xl text-foreground">+18777921410</span>
                 </div>
               </a>
 
               <a
-                href="mailto:info@savannahelectricpros.com"
+                href="mailto:info@roundrockpotfillers.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">info@savannahelectricpros.com</span>
+                  <span className="font-heading font-bold text-foreground">info@roundrockpotfillers.com</span>
                 </div>
               </a>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Savannah, Ardsley Park, Isle of Hope & Historic District</span>
+                  <span className="font-heading font-semibold text-foreground">Round Rock, Brushy Creek, Teravista & Forest Creek</span>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">24/7 Priority Emergency Electrical Support</span>
+                  <span className="font-heading font-semibold text-foreground">Mon-Sat: 8:00 AM - 6:00 PM | Priority Scheduling</span>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request a Safety Inspection
+              Request an Installation Quote
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -83,7 +83,7 @@ const Contact = () => {
                     type="text"
                     id="firstName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="John"
+                    placeholder="Jane"
                   />
                 </div>
                 <div>
@@ -94,7 +94,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Smith"
+                    placeholder="Doe"
                   />
                 </div>
               </div>
@@ -107,7 +107,7 @@ const Contact = () => {
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="+18449012684"
+                  placeholder="+18777921410"
                 />
               </div>
 
@@ -119,19 +119,19 @@ const Contact = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="john@example.com"
+                  placeholder="jane@example.com"
                 />
               </div>
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Tell Us About Your Home's Wiring
+                  Tell Us About Your Kitchen
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="Do you have visible knob & tube? Any flickering lights or warm outlets?"
+                  placeholder="What type of faucet are you installing? Do you have an existing water line near the stove?"
                 />
               </div>
 

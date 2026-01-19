@@ -1,24 +1,24 @@
-import { Zap, ZapOff, Shield, CheckCircle, ArrowRight } from "lucide-react";
+import { Droplets, Wrench, Shield, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: ZapOff,
-    title: "Knob & Tube Removal",
-    description: "Complete decommissioning and safe removal of dangerous, ungrounded knob and tube wiring from historic Savannah homes.",
-    features: ["Safety audit", "Debris removal", "Fire risk reduction"],
+    icon: Droplets,
+    title: "Water Line Extension",
+    description: "Expertly running new cold water lines behind your stove to provide a dedicated supply for your new pot filler faucet.",
+    features: ["Leak-proof copper", "Minimal wall damage", "Precision routing"],
   },
   {
-    icon: Zap,
-    title: "Whole-Home Rewiring",
-    description: "Modern copper wiring installation with dedicated ground wires, ensuring your home meets all modern electrical codes.",
-    features: ["Code compliance", "Grounding systems", "Modern fixtures"],
+    icon: Wrench,
+    title: "Custom Faucet Mounting",
+    description: "Secure mounting for all types of wall-mount and deck-mount pot fillers, ensuring a perfectly level and sturdy installation.",
+    features: ["All major brands", "Sturdy bracing", "Level alignment"],
   },
   {
     icon: Shield,
-    title: "Panel & Service Upgrade",
-    description: "Upgrading old fuse boxes to modern circuit breaker panels to handle today's heavy electrical loads safely.",
-    features: ["200-Amp upgrades", "Breaker panels", "Surge protection"],
+    title: "Kitchen Plumbing Audit",
+    description: "Comprehensive check of your kitchen's plumbing system during installation to prevent future leaks and ensure optimal pressure.",
+    features: ["Pressure testing", "Joint inspection", "Safety guarantee"],
   },
 ];
 
@@ -28,13 +28,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Safety First
+            Kitchen Luxuries
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Savannah's Historic Rewiring Experts
+            Round Rock's Pot Filler Specialists
           </h2>
           <p className="text-muted-foreground text-lg">
-            Old wiring is a ticking time bomb. Our specialized electrical services modernize your historic home without compromising its character.
+            Stop lugging heavy pots across the kitchen. Our expert plumbers provide seamless pot filler installations for your Round Rock home.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ const Services = () => {
               </div>
 
               <h3 className="text-xl font-heading font-bold text-foreground mb-3">
-                {service.title} in Savannah
+                {service.title} in Round Rock
               </h3>
 
               <p className="text-muted-foreground mb-6">
